@@ -35,6 +35,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus8T \
     PRODUCT_NAME=OnePlus8T_EEA \
-    PRIVATE_BUILD_DESC="OnePlus8T-user 11   release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys"
 
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys__2021-08-05
